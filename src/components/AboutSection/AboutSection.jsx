@@ -1,6 +1,6 @@
 import { useEffect } from "react";
 import gsap from "gsap";
-import LandingIl from '../../assets/vectors/landingil.svg';
+import krish from '../../assets/vectors/Krish.jpg';
 // Stylesheets
 import "./AboutSection.css";
 
@@ -42,13 +42,18 @@ const AboutSection = () => {
       <main>
         <div className = "about-div">
           <div className="about-pic">
-            <img src={LandingIl} alt="Landing Illustration" />
+            <img src={krish} alt="Landing Illustration"/>
           </div>
           <div className="about-text">
             <p className="text" id="about-content">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit non voluptatem modi eligendi exercitationem amet distinctio optio itaque aspernatur voluptate cumque iste laboriosam nesciunt repudiandae dolorum ut. Porro temporibus qui omnis? Non eaque est earum perferendis alias nam ut recusandae dolores adipisci atque veniam, reiciendis, magni dignissimos neque aliquam.
+            Welcome! I’m happy you’re here.
+I'm Krish Bajaj from Siliguri, West Bengal. Currently, I'm a undergrad student at IIT BHU.
+
+I am a Full Stack Web Developer who likes to work on Frontend.
+
+Also, I love to do Competitive Programming and do some brain bashing.
             </p>
-            <a href = "https://codeforces.com/profile/ScaryDaddy" className= "btn btn-primary">Codeforces Specialist</a>
+            <a target="_blank" rel="noreferrer nooopener" href = "https://codeforces.com/profile/ScaryDaddy" className= "btn btn-primary">Codeforces(Specialist)</a>
           </div>
         </div>
       </main>
