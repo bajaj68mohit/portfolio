@@ -40,16 +40,16 @@ const AboutSection = () => {
         </h2>
       </header>
       <main>
-        <div>
-        <div className="about-pic">
-        <img src ={LandingIl} alt="Landing Illustration" />
-        </div>
-        <div className="about-text"> 
-        <p className="text" id="about-content">
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit non voluptatem modi eligendi exercitationem amet distinctio optio itaque aspernatur voluptate cumque iste laboriosam nesciunt repudiandae dolorum ut. Porro temporibus qui omnis? Non eaque est earum perferendis alias nam ut recusandae dolores adipisci atque veniam, reiciendis, magni dignissimos neque aliquam.
-          
-        </p>
-        </div>
+        <div className = "about-div">
+          <div className="about-pic">
+            <img src={LandingIl} alt="Landing Illustration" />
+          </div>
+          <div className="about-text">
+            <p className="text" id="about-content">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt, odit non voluptatem modi eligendi exercitationem amet distinctio optio itaque aspernatur voluptate cumque iste laboriosam nesciunt repudiandae dolorum ut. Porro temporibus qui omnis? Non eaque est earum perferendis alias nam ut recusandae dolores adipisci atque veniam, reiciendis, magni dignissimos neque aliquam.
+            </p>
+            <a href = "https://codeforces.com/profile/ScaryDaddy" className= "btn btn-primary">Codeforces Specialist</a>
+          </div>
         </div>
       </main>
 
