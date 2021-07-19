@@ -1,7 +1,7 @@
 import { useEffect } from "react";
 import gsap from "gsap";
 
-import './ProjectSection.css';
+import "./ProjectSection.css";
 import { PROJECTS } from "../../content/data";
 const ProjectSection = () => {
   useEffect(() => {
@@ -31,14 +31,16 @@ const ProjectSection = () => {
       });
   }, []);
 
-    return (
-        <section className="projects" id="projects">
-           <header>
-               <h2 className="heading" id="proj-heading">Projects</h2>
-               </header>
-           <main>
-               <article className="proj-cont">
-               {PROJECTS.map(({ title, desc, img, link }, i) => (
+  return (
+    <section className="projects" id="projects">
+      <header>
+        <h2 className="heading" id="proj-heading">
+          Projects
+        </h2>
+      </header>
+      <main>
+        <article className="proj-cont">
+          {PROJECTS.map(({ title, desc, img, link }, i) => (
             <a
               target="_blank"
               rel="noreferrer nooopener"
@@ -51,10 +53,10 @@ const ProjectSection = () => {
               <p className="proj-desc">{desc}</p>
             </a>
           ))}
-               </article>
-           </main>
-        </section>
-    )
-}
+        </article>
+      </main>
+    </section>
+  );
+};
 
-export default ProjectSection
+export default ProjectSection;
